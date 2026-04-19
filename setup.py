@@ -30,16 +30,6 @@ setup(
     url='https://github.com/tristandeleu/pytorch-meta',
     keywords=['meta-learning', 'pytorch', 'few-shot', 'few-shot learning'],
     packages=find_packages(exclude=['data', 'contrib', 'docs', 'tests', 'examples']),
-    install_requires=[
-        'torch>=1.4.0,<1.10.0',
-        'torchvision>=0.5.0,<0.11.0',
-        'numpy>=1.14.0',
-        'Pillow>=7.0.0',
-        'h5py',
-        'tqdm>=4.0.0',
-        'requests',  # Required by Torchvision
-        'ordered-set'
-    ],
     extras_require=extras,
     package_data={'torchmeta': ['torchmeta/datasets/assets/*']},
     include_package_data=True,
