@@ -88,7 +88,7 @@ class Sinusoid(MetaDataset):
         if self.dataset_transform is not None:
             task = self.dataset_transform(task)
 
-        return task
+        return task, amplitude, phase
 
 
 class SinusoidTask(Task):

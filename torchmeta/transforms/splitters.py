@@ -123,6 +123,7 @@ class ClassSplitter_(Splitter):
         >>> len(task['train']), len(task['test'])
         (25, 75)
         """
+        print('testing')
         self.shuffle = shuffle
 
         if num_samples_per_class is None:

@@ -111,3 +111,8 @@ venv.bak/
 
 # Model folders
 examples/**/models/
+
+notebook/*
+tests/*
+.DS_Store
+.vscode/*
